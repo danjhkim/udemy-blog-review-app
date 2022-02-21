@@ -1,0 +1,29 @@
+/* Light Theme */
+:root {
+	--background-color: rgb(223, 223, 223);
+	--link-color: darkred;
+	--text-color: black;
+}
+
+/* /* Dark Theme */
+/* :root {
+	--background-color: rgb(56, 56, 56);
+	--text-color: rgb(223, 223, 223);
+	--link-color: rgb(255, 187, 3);
+}  */
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: var(--background-color);
+	color: var(--text-color);
+}
+
+a {
+	color: var(--link-color);
+	text-decoration: none;
+}
+
+a:focus,
+a:hover {
+	text-decoration: underline;
+}
